@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+ <html> <head> <title>SEAMOLEC WARISAN BUDAYA INDONESIA</title> 
+ <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" /> <script src="http://code.jquery.com/jquery-1.9.1.min.js">
+  </script> <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"> </script> 
+  	<script type="text/javascript" src="perhitungan.js" ></script>
+	<script type="text/javascript" src="perhitungan2.js" ></script>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+     <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <!--  Bootstrap Style -->
+    <link href="jquery/assets/css/bootstrap.css" rel="stylesheet" />
+     <!--  Font-Awesome Style -->
+    <link href="jquery/assets/css/font-awesome.min.css" rel="stylesheet" />
+     <!--  Font-Awesome Animation Style -->
+    <link href="jquery/assets/css/font-awesome-animation.css" rel="stylesheet" />
+     <!--  Pretty Photo Style -->
+    <link href="jquery/assets/css/prettyPhoto.css" rel="stylesheet" />
+        <!--  Google Font Style -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+     <!--  Custom Style -->
+    <link href="jquery/assets/css/style.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+      </head> 
+
+<body style="background-color:powderblue;">
+
+    <div data-role="page" id="mulai" >
+
+        <div data-role="header" data-position="fixed">
+        	<h1>Mari mengenal kebudayaan kita</h1>
+	</div>  		
+	
+	<center>Kebudayaan Indonesia yang diakui Dunia oleh Unesco</center>
+    <center><p id="teks" onclick="hitung()">Selamat datang,masukan nama anda  </p>
+	<center><img src="./gambar.jpg" style="width:300px;height:200px"><center> 
+	<audio controls> <source src="Happy.ogg"  type="audio/mpeg"></audio>
+	
+	<a href="#index" data-role="button"   > Next </a>
+	</div>
+	<div data-role="page" id="index" >
+	<center>
+	<p>Masukkan Nama Anda : </p>
+	<input type="text" id="InputTeks">	
+
+	<p id="output">Haloo: </p> 
+
+	<a data-role="button" onclick="hasil()">Klik Nama</a>
+   <ul data-role="listview" data-inset="true">
+
+   <li data-role="list-divider"> MENGENAL WARISAN BUDAYA INDONESIA YANG DILINDUNGI UNESCO</li> 
+   <li><a href="#pag2">WAYANG KULIT</a></li> 
+   <li><a href="#pag3">KERIS</a></li> 
+   <li><a href="#pag4">BATIK</a></li>
+    <li><a href="#pag5">GAMELAN</a></li>
+    <li><a href="#pag6">SEKATEN</a></li> 
+   <li><a href="#pag7">LUMPIA</a></li> 
+   <li><a href="#pag8">ANGKLUNG</a></li>
+    <li><a href="#pag9">TARI SAMAN GAYO</a></li>
+     <li><a href="#pag10">NOKEN</a></li>
+    <li><a href="#pag11">SUBAK</a></li> 
+
+      </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag2"> <div data-role="header"> <h1>WAYANG KULIT</h1> </div> <div data-role="content">
+                    <img src="img/3.jpg" 
+                    </div>
+  <P>
+	<audio controls> <source src="wayang.ogg"  type="audio/mpeg"></audio>
+</P>
+                        
+                       Wayang kulit adalah seni tradisional Indonesia yang terutama berkembang di Jawa. Wayang berasal dari kata 'Ma Hyang' yang artinya menuju kepada roh spiritual, dewa, atau Tuhan Yang Maha Esa. Ada juga yang mengartikan wayang adalah istilah bahasa Jawa yang bermakna 'bayangan', hal ini disebabkan karena penonton juga bisa menonton wayang dari belakang kelir atau hanya bayangannya saja. Wayang kulit dimainkan oleh seorang dalang yang juga menjadi narator dialog tokoh-tokoh wayang, dengan diiringi oleh musik gamelan yang dimainkan sekelompok nayaga dan tembang yang dinyanyikan oleh para pesinden. Dalang memainkan wayang kulit di balik kelir, yaitu layar yang terbuat dari kain putih, sementara di belakangnya disorotkan lampu listrik atau lampu minyak (blencong), sehingga para penonton yang berada di sisi lain dari layar dapat melihat bayangan wayang yang jatuh ke kelir. Untuk dapat memahami cerita wayang (lakon), penonton harus memiliki pengetahuan akan tokoh-tokoh wayang yang bayangannya tampil di layar.                     
+<p>
+
+Secara umum wayang mengambil cerita dari naskah Mahabharata dan Ramayana, tetapi tak dibatasi hanya dengan pakem (standard) tersebut, ki dalang bisa juga memainkan lakon carangan (gubahan). Beberapa cerita diambil dari cerita Panji.
+<p>
+Pertunjukan wayang kulit telah diakui oleh UNESCO pada tanggal 7 November 2003, sebagai karya kebudayaan yang mengagumkan dalam bidang cerita narasi dan warisan yang indah dan berharga ( Masterpiece of Oral and Intangible Heritage of Humanity ). Wayang kulit lebih populer di Jawa bagian tengah dan timur, sedangkan wayang golek lebih sering dimainkan di Jawa Barat.[sumber : Wikipedia]
+                    </p>
+
+   
+
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+   </div> 
+  </div>
+
+        </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag3"> <div data-role="header"> <h1>KERIS</h1> </div> <div data-role="content">  <img src="img/keris.jpg" style="width:304px;height:228px;">
+<div
+ 
+      Keris adalah senjata tikam golongan belati (berujung runcing dan tajam pada kedua sisinya) dengan banyak fungsi budaya yang dikenal di kawasan Nusantara bagian barat dan tengah. Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya karena tidak simetris di bagian pangkal yang melebar, seringkali bilahnya berkelok-kelok, dan banyak di antaranya memiliki pamor (damascene), yaitu terlihat serat-serat lapisan logam cerah pada helai bilah. Jenis senjata tikam yang memiliki kemiripan dengan keris adalah badik. Senjata tikam lain asli Nusantara adalah kerambit.
+<p>
+Pada masa lalu keris berfungsi sebagai senjata dalam duel/peperangan, sekaligus sebagai benda pelengkap sesajian. Pada penggunaan masa kini, keris lebih merupakan benda aksesori (ageman) dalam berbusana, memiliki sejumlah simbol budaya, atau menjadi benda koleksi yang dinilai dari segi estetikanya.
+<p>
+Penggunaan keris tersebar pada masyarakat penghuni wilayah yang pernah terpengaruh oleh Majapahit, seperti Jawa, Madura, Nusa Tenggara, Sumatera, pesisir Kalimantan, sebagian Sulawesi, Semenanjung Malaya, Thailand Selatan, dan Filipina Selatan (Mindanao). Keris Mindanao dikenal sebagai kalis. Keris di setiap daerah memiliki kekhasan sendiri-sendiri dalam penampilan, fungsi, teknik garapan, serta peristilahan.
+<p>
+Keris sebagai elemen persembahan sebagaimana dinyatakan oleh prasasti-prasasti dari milenium pertama menunjukkan keris sebagai bagian dari persembahan. Pada masa kini, keris juga masih menjadi bagian dari sesajian. Lebih jauh, keris juga digunakan dalam ritual/upacara mistik atau paranormal. Keris untuk penggunaan semacam ini memiliki bentuk berbeda, dengan pesi menjadi hulu keris, sehingga hulu menyatu dengan bilah keris. Keris semacam ini dikenal sebagai keris sesajian atau "keris majapahit" (tidak sama dengan keris tangguh Majapahit)!.
+<p>
+Pemaparan-pemaparan asing menunjukkan fungsi keris sebagai senjata di kalangan awam Majapahit. Keris sebagai senjata memiliki bilah yang kokoh, keras, tetapi ringan. Berbagai legenda dari periode Demak–Mataram mengenal beberapa keris senjata yang terkenal, misalnya keris Nagasasra Sabukinten.
+<p>
+Laporan Perancis dari abad ke-16 telah menceritakan peran keris sebagai simbol kebesaran para pemimpin Sumatera (khususnya Kesultanan Aceh)[12]. Godinho de Heredia dari Portugal menuliskan dalam jurnalnya dari tahun 1613 bahwa orang-orang Melayu penghuni Semenanjung ("Hujung Tanah") telah memberikan racun pada bilah keris dan menghiasi sarung dan hulu keris dengan batu permata[13].
+<p>
+"Penghalusan" fungsi keris tampaknya semakin menguat sejak abad ke-19 dan seterusnya, sejalan dengan meredanya gejolak politik di Nusantara dan menguatnya penggunaan senjata api. Dalam perkembangan ini, peran keris sebagai senjata berangsur-angsur berkurang. Sebagai contoh, dalam idealisme Jawa mengenai seorang laki-laki "yang sempurna", sering dikemukakan bahwa keris atau curiga menjadi simbol pegangan ilmu/keterampilan sebagai bekal hidup. Berkembangnya tata krama penggunaan keris maupun variasi bentuk sarung keris (warangka) yang dikenal sekarang dapat dikatakan juga merupakan wujud penghalusan fungsi keris (Sumber : Wikipedia).
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+   </div> 
+  </div>
+
+
+        </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag4"> <div data-role="header"> <h1>BATIK</h1> </div> <div data-role="content">
+   
+   <img src="batik1.jpg" alt="Batik" style="width:304px;height:228px;">
+<div
+<p>
+      Batik adalah kerajinan yang memiliki nilai seni tinggi dan telah menjadi bagian dari budaya Indonesia (khususnya Jawa) sejak lama. Perempuan-perempuan Jawa pada masa lampau menjadikan keterampilan mereka dalam membatik sebagai mata pencaharian, sehingga pada masa lalu pekerjaan membatik adalah pekerjaan eksklusif perempuan sampai ditemukannya "Batik Cap" yang memungkinkan masuknya laki-laki ke dalam bidang ini. Ada beberapa pengecualian bagi fenomena ini, yaitu batik pesisir yang memiliki garis maskulin seperti yang bisa dilihat pada corak "Mega Mendung", di mana di beberapa daerah pesisir pekerjaan membatik adalah lazim bagi kaum lelaki.
+<p>
+Tradisi membatik pada mulanya merupakan tradisi yang turun temurun, sehingga kadang kala suatu motif dapat dikenali berasal dari batik keluarga tertentu. Beberapa motif batik dapat menunjukkan status seseorang. Bahkan sampai saat ini, beberapa motif batik tadisional hanya dipakai oleh keluarga keraton Yogyakarta dan Surakarta.
+<p> 
+Ragam corak dan warna Batik dipengaruhi oleh berbagai pengaruh asing. Awalnya, batik memiliki ragam corak dan warna yang terbatas, dan beberapa corak hanya boleh dipakai oleh kalangan tertentu. Namun batik pesisir menyerap berbagai pengaruh luar, seperti para pedagang asing dan juga pada akhirnya, para penjajah. Warna-warna cerah seperti merah dipopulerkan oleh Tionghoa, yang juga memopulerkan corak phoenix. Bangsa penjajah Eropa juga mengambil minat kepada batik, dan hasilnya adalah corak bebungaan yang sebelumnya tidak dikenal (seperti bunga tulip) dan juga benda-benda yang dibawa oleh penjajah (gedung atau kereta kuda), termasuk juga warna-warna kesukaan mereka seperti warna biru. Batik tradisonal tetap mempertahankan coraknya, dan masih dipakai dalam upacara-upacara adat, karena biasanya masing-masing corak memiliki perlambangan masing-masing.
+<p>
+Cara pembuatan
+Semula batik dibuat di atas bahan dengan warna putih yang terbuat dari kapas yang dinamakan kain mori. Dewasa ini batik juga dibuat di atas bahan lain seperti sutera, poliester, rayon dan bahan sintetis lainnya. Motif batik dibentuk dengan cairan lilin dengan menggunakan alat yang dinamakan canting untuk motif halus, atau kuas untuk motif berukuran besar, sehingga cairan lilin meresap ke dalam serat kain. Kain yang telah dilukis dengan lilin kemudian dicelup dengan warna yang diinginkan, biasanya dimulai dari warna-warna muda. Pencelupan kemudian dilakukan untuk motif lain dengan warna lebih tua atau gelap. Setelah beberapa kali proses pewarnaan, kain yang telah dibatik dicelupkan ke dalam bahan kimia untuk melarutkan lilin (Sumber : Wikipedia)..
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+   </div> 
+  </div>
+        </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag5"> <div data-role="header"> <h1>GAMELAN</h1> </div> <div data-role="content">
+   <img src="gamelan.jpg" alt="Gamelan" style="width:304px;height:228px;">
+     <P>
+	<audio controls> <source src="gamelansound.ogg"  type="audio/mpeg"></audio>
+</P>
+       </div> 
+Gamelan adalah ensembel musik yang biasanya menonjolkan metalofon, gambang, gendang, dan gong. Istilah gamelan merujuk pada instrumennya / alatnya, yang mana merupakan satu kesatuan utuh yang diwujudkan dan dibunyikan bersama. Kata Gamelan sendiri berasal dari bahasa Jawa gamel yang berarti memukul / menabuh, diikuti akhiran an yang menjadikannya kata benda. Orkes gamelan kebanyakan terdapat di pulau Jawa, Madura, Bali, dan Lombok di Indonesia dalam berbagai jenis ukuran dan bentuk ensembel. Di Bali dan Lombok saat ini, dan di Jawa lewat abad ke-18, istilah gong lebih dianggap sinonim dengan gamelan.
+<p>
+Kemunculan gamelan didahului dengan budaya Hindu-Budha yang mendominasi Indonesia pada awal masa pencatatan sejarah, yang juga mewakili seni asli indonesia. Instrumennya dikembangkan hingga bentuknya sampai seperti sekarang ini pada zaman Kerajaan Majapahit. Dalam perbedaannya dengan musik India, satu-satunya dampak ke-India-an dalam musik gamelan adalah bagaimana cara menyanikannya. Dalam mitologi Jawa, gamelan dicipatakan oleh Sang Hyang Guru pada Era Saka, dewa yang menguasai seluruh tanah Jawa, dengan istana di gunung Mahendra di Medangkamulan (sekarang Gunung Lawu). Sang Hyang Guru pertama-tama menciptakan gong untuk memanggil para dewa. Untuk pesan yang lebih spesifik kemudian menciptakan dua gong, lalu akhirnya terbentuk set gamelan.
+<p>
+Gambaran tentang alat musik ensembel pertama ditemukan di Candi Borobudur, Magelang Jawa Tengah, yang telah berdiri sejak abad ke-8. Alat musik semisal suling bambu, lonceng, kendhang dalam berbagai ukuran, kecapi, alat musik berdawai yang digesek dan dipetik, ditemukan dalam relief tersebut. Namun, sedikit ditemukan elemen alat musik logamnya. Bagaimanapun, relief tentang alat musik tersebut dikatakan sebagai asal mula gamelan.
+<p>
+Penalaan dan pembuatan orkes gamelan adalah suatu proses yang kompleks. Gamelan menggunakan empat cara penalaan, yaitu sléndro, pélog, degung (khusus daerah Sunda, atau Jawa Barat), dan madenda (juga dikenal sebagai diatonis, sama seperti skala minor asli yang banyak dipakai di Eropa.
+<p>
+Musik Gamelan merupakan gabungan pengaruh seni luar negeri yang beraneka ragam. Kaitan not nada dari Cina, instrumen musik dari Asia Tenggara, drum band dan gerakkan musik dari India, bowed string dari daerah Timur Tengah, bahkan style militer Eropa yang kita dengar pada musik tradisional Jawa dan Bali sekarang ini.
+<p>
+Interaksi komponen yang sarat dengan melodi, irama dan warna suara mempertahankan kejayaan musik orkes gamelan Bali. Pilar-pilar musik ini menyatukan berbagai karakter komunitas pedesaan Bali yang menjadi tatanan musik khas yang merupakan bagian yang tidak dapat dipisahkan dari kehidupan sehari-hari.
+<p>
+Namun saat ini gamelan masih digunakan pada acara-acara resmi seperti pernikahan, syukuran, dan lain-lain. tetapi pada saat ini, gamelan hanya digunakan mayoritas masyarakat Jawa, khususnya Jawa Tengah (Sumber : Wikipedia)..
+
+
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+   </div> 
+  </div>
+
+        </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag6"> <div data-role="header"> <h1>SEKATEN</h1> </div> <div data-role="content">
+       <img src="sekaten.jpg" alt="Sekaten" style="width:304px;height:228px;">
+   </div> 
+ <p>
+Pada hari pertama, upacara diawali saat malam hari dengan iring-iringan abdi dalem (punggawa kraton) bersama-sama dengan dua set gamelan Jawa Kyai Nogowilogo dan Kyai Gunturmadu. Iring-iringan ini bermula dari pendapa Ponconiti menuju masjid Agung di Alun-alun Utara dengan dikawal oleh prajurit Kraton. Kyai Nogowilogo akan menempati sisi utara dari Masjid Agung, sementara Kyai Gunturmadu akan berada di Pagongan sebelah selatan masjid. Kedua set gamelan ini akan dimainkan secara bersamaan sampai dengan tanggal 11 bulan Mulud, selama 7 hari berturut-turut. Pada malam hari terakhir, kedua gamelan ini akan dibawa pulang ke dalam Kraton.
+<p>
+Acara puncak peringatan Sekaten ini ditandai dengan Grebeg Muludan yang diadakan pada tanggal 12 (persis di hari ulang tahun Nabi Muhammad SAW) mulai jam 08.00 hingga 10.00 WIB. Dengan dikawal oleh 10 macam bregada (kompi) prajurit Kraton: Wirabraja, Dhaheng, Patangpuluh, Jagakarya, Prawiratama, Nyutra, Ketanggung, Mantrijero, Surakarsa, dan Bugis. Sebuah gunungan yang terbuat dari beras ketan, makanan, dan buah-buahan serta sayur-sayuan akan dibawa dari istana Kemandungan melewati Sitihinggil dan Pagelaran menuju masjid Agung. Setelah didoakan, gunungan yang melambangkan kesejahteraan kerajaan Mataram ini dibagikan kepada masyarakat yang menganggap bahwa bagian dari gunungan ini akan membawa berkah bagi mereka. Bagian gunungan yang dianggap sakral ini akan dibawa pulang dan ditanam di sawah/ladang agar sawah mereka menjadi subur dan bebas dari segala macam bencana dan malapetaka (Sumber : Wikipedia)..
+<p>
+</div>
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+        </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag7"> <div data-role="header"> <h1>LUMPIA</h1> </div> <div data-role="content">
+           <img src="lumpia.jpg" alt="Lumpia" style="width:304px;height:228px;">
+
+<p>
+Bukan hanya taman nasioanal, candi, atau kesenian lain, makanan lumpia pun telah dinobatkan sebagai situs warisan budaya oleh UNESCO. Sebenarnya, makanan yang dibuat dari lembaran lumpia dengan isian rebung atau makanan laut ini berasal dari budaya Tiongkok yang kemudian semakin lama menjadi populer di Indonesia dengan campurannya yang membuat banyak orang menyukai makanan lumpia ini.
+<p>
+Namun, karena telah dimodifikasi dengan lidah Indonesia, makanan ini lebih populer di Indonesia. Maka dari itu, pada 2014 lalu, lumpia resmi diakui oleh UNESCO menjadi salah satu situs budaya asal Indonesia.
+<p>
+Lumpia terdiri dari lembaran tipis tepung gandum yang dijadikan sebagai pembungkus isian yang umumnya adalah rebung, telur, sayuran segar, daging, atau makanan laut.
+
+Di Indonesia, lumpia dikenal sebagai jajanan khas Semarang dengan tata cara pembuatan dan bahan-bahan yang telah disesuaikan dengan tradisi setempat.
+  (Sumber : Wikipedia). </div>
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+   </div> 
+  </div>
+
+        </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag8"> <div data-role="header"> <h1>ANGKLUNG</h1> </div> <div data-role="content">
+           <img src="angklung.jpg" alt="Angklung" style="width:304px;height:228px;">
+           <p>
+           Angklung adalah alat musik multitonal (bernada ganda) yang secara tradisional berkembang dalam masyarakat Sunda di Pulau Jawa bagian barat. Alat musik ini dibuat dari bambu, dibunyikan dengan cara digoyangkan (bunyi disebabkan oleh benturan badan pipa bambu) sehingga menghasilkan bunyi yang bergetar dalam susunan nada 2, 3, sampai 4 nada dalam setiap ukuran, baik besar maupun kecil. Dictionary of the Sunda Language karya Jonathan Rigg, yang diterbitkan pada tahun 1862 di Batavia, menuliskan bahwa angklung adalah alat musik yang terbuat dari pipa-pipa bambu, yang dipotong ujung-ujungnya, menyerupai pipa-pipa dalam suatu organ, dan diikat bersama dalam suatu bingkai, digetarkan untuk menghasilkan bunyi. Angklung terdaftar sebagai Karya Agung Warisan Budaya Lisan dan Nonbendawi Manusia dari UNESCO sejak November 2010<p>
+           Tidak ada petunjuk sejak kapan angklung digunakan, tetapi diduga bentuk primitifnya telah digunakan dalam kultur Neolitikum yang berkembang di Nusantara sampai awal penanggalan modern, sehingga angklung merupakan bagian dari relik pra-Hinduisme dalam kebudayaan Nusantara.
+<p>
+Catatan mengenai angklung baru muncul merujuk pada masa Kerajaan Sunda (abad ke-12 sampai abad ke-16). Asal usul terciptanya musik bambu, seperti angklung berdasarkan pandangan hidup masyarakat Sunda yang agraris dengan sumber kehidupan dari padi (pare) sebagai makanan pokoknya. Hal ini melahirkan mitos kepercayaan terhadap Nyai Sri Pohaci sebagai lambang Dewi Padi pemberi kehidupan (hirup-hurip). Masyarakat Baduy, yang dianggap sebagai sisa-sisa masyarakat Sunda asli, menerapkan angklung sebagai bagian dari ritual mengawali penanaman padi. Permainan angklung gubrag di Jasinga, Bogor, adalah salah satu yang masih hidup sejak lebih dari 400 tahun lampau. Kemunculannya berawal dari ritus padi. Angklung diciptakan dan dimainkan untuk memikat Dewi Sri turun ke bumi agar tanaman padi rakyat tumbuh subur.
+<p>
+Jenis bambu yang biasa digunakan sebagai alat musik tersebut adalah bambu hitam (awi wulung) dan bambu putih (awi temen). Tiap nada (laras) dihasilkan dari bunyi tabung bambunya yang berbentuk bilah (wilahan) setiap ruas bambu dari ukuran kecil hingga besar.
+<p>
+Dikenal oleh masyarakat sunda sejak masa kerajaan Sunda, di antaranya sebagai penggugah semangat dalam pertempuran. Fungsi angklung sebagai pemompa semangat rakyat masih terus terasa sampai pada masa penjajahan, itu sebabnya pemerintah Hindia Belanda sempat melarang masyarakat menggunakan angklung, pelarangan itu sempat membuat popularitas angklung menurun dan hanya dimainkan oleh anak- anak pada waktu itu.[butuh rujukan]
+<p>
+Selanjutnya lagu-lagu persembahan terhadap Dewi Sri tersebut disertai dengan pengiring bunyi tabuh yang terbuat dari batang-batang bambu yang dikemas sederhana yang kemudian lahirlah struktur alat musik bambu yang kita kenal sekarang bernama angklung. Demikian pula pada saat pesta panen dan seren taun dipersembahkan permainan angklung. Terutama pada penyajian Angklung yang berkaitan dengan upacara padi, kesenian ini menjadi sebuah pertunjukan yang sifatnya arak-arakan atau helaran, bahkan di sebagian tempat menjadi iring-iringan Rengkong dan Dongdang serta Jampana (usungan pangan) dan sebagainya.
+<p>
+Dalam perkembangannya, angklung berkembang dan menyebar ke seantero Jawa, lalu ke Kalimantan dan Sumatera. Pada 1908 tercatat sebuah misi kebudayaan dari Indonesia ke Thailand, antara lain ditandai penyerahan angklung, lalu permainan musik bambu ini pun sempat menyebar di sana.
+<p>
+Bahkan, sejak 1966, Udjo Ngalagena —tokoh angklung yang mengembangkan teknik permainan berdasarkan laras-laras pelog, salendro, dan madenda— mulai mengajarkan bagaimana bermain angklung kepada banyak orang dari berbagai komunitas.
+   (Sumber : Wikipedia).
+   </div>
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+   </div> 
+  </div>
+
+        </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag9"> <div data-role="header"> <h1>SAMAN GAYO</h1> </div> <div data-role="content">
+           <img src="saman.jpg" alt="TARI SAMAN" style="width:304px;height:228px;">
+
+           Tari Saman adalah sebuah tarian Suku Gayo yang biasa ditampilkan untuk merayakan peristiwa-peristiwa penting dalam adat. Syair dalam tarian saman mempergunakan Bahasa Gayo. Selain itu biasanya tarian ini juga ditampilkan untuk merayakan kelahiran Nabi Muhammad SAW. Dalam beberapa literatur menyebutkan tari saman di Aceh didirikan dan dikembangkan oleh Syekh Saman, seorang ulama yang berasal dari Gayo di Aceh Tenggara. Tari saman ditetapkan UNESCO sebagai Daftar Representatif Budaya Takbenda Warisan Manusia dalam Sidang ke-6 Komite Antar-Pemerintah untuk Pelindungan Warisan Budaya Tak benda UNESCO di Bali, 24 November 2011 <p>
+           Tari Saman merupakan salah satu media untuk pencapaian pesan (dakwah). Tarian ini mencerminkan pendidikan, keagamaan, sopan santun, kepahlawanan, kekompakan dan kebersamaan.
+<p>
+Sebelum saman dimulai yaitu sebagai mukaddimah atau pembukaan, tampil seorang tua cerdik pandai atau pemuka adat untuk mewakili masyarakat setempat (keketar) atau nasihat-nasihat yang berguna kepada para pemain dan penonton.
+<p>
+Lagu dan syair pengungkapannya secara bersama dan berkesinambungan, pemainnya terdiri dari pria-pria yang masih muda-muda dengan memakai pakaian adat. Penyajian tarian tersebut dapat juga dipentaskan, dipertandingkan antara grup tamu dengan grup sepangkalan (dua grup). Penilaian dititik beratkan pada kemampuan masing-masing grup dalam mengikuti gerak, tari dan lagu (syair) yang disajikan oleh pihak lawan (Sumber : Wikipedia)..
+   </div>
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+   </div> 
+  </div>
+
+
+        </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag10"> <div data-role="header"> <h1>NOKEN</h1> </div> <div data-role="content">
+           <img src="noken.jpg" alt="Noken" style="width:304px;height:228px;">
+   </div>
+   Noken yaitu tas tradisional masyarakat Papua yang dibawa dengan menggunakan kepala dan terbuat dari serat kulit kayu. Sama dengan tas pada umumnya tas ini digunakan untuk membawa barang-barang kebutuhan sehari-hari.
+<P>
+Masyarakat Papua biasanya menggunakannya untuk membawa hasil-hasil pertanian seperti sayuran, umbi-umbian dan juga untuk membawa barang-barang dagangan ke pasar. Karena keunikannya yang dibawa dengan kepala, noken ini di daftarkan ke UNESCO sebagai salah satu hasil karya tradisional dan warisan kebudayaan dunia dan pada 4 desember 2012 ini, noken khas masyarakat Papua ditetapkan sebagai warisan kebudayaan tak benda UNESCO.
+<P>
+"Pengakuan UNESCO ini akan mendorong upaya melindungi dan mengembangkan warisan budaya Noken, yang dimiliki oleh lebih dari 250 suku bangsa di Provinsi Papua dan Papua Barat,"
+Tas Noken ini sendiri asli buatan mama-mama di Papua. Tas tradisional Noken memiliki simbol kehidupan yang baik, perdamaian, dan kesuburan bagi masyarakat di tanah Papua terutama kebanyakan di daerah Pegunungan Tengah Papua seperti suku Mee/Ekari, Damal, Suku Yali, Dani, Suku Lani dan Bauzi.
+<P>
+Yang menarik dari Noken ini adalah hanya orang Papua saja yang boleh membuat Noken. Membuat Noken sendiri dahulu bisa melambangkan kedewasaan si perempuan itu. Karena jika perempuan papua belum bisa membuat Noken dia tidak bisa dianggap dewasa dan itu merupakan syarat untuk menikah. Dahulu Noken dibuat karena suku Papua membutuhkan sesuatu yang dapat memindahkan barang ke tempat yang lain. Tapi sekarang para wanita di Papua sudah jarang yang bisa membuat Noken padahal itu adalah warisan budaya yang menarik.
+<P>
+Terbuat dari bahan baku kayu pohon Manduam, pohon Nawa atau Anggrek hutan. Masyarakat Papua biasanya menggunakan Noken untuk bermacam kegiatan, Noken yang berukuran besar dipakai untuk membawa barang seperti kayu bakar, tanaman hasil panen, barang-barang belanjaan, atau bahkan digunakan untuk menggendong anak. Sedangkan yang berukuran kecil digunakan untuk membawa barang-barang pribadi. Keunikan Noken juga difungsikan sebagai hadiah kenang-kenangan untuk tamu dan dipakai dalam upacara.
+<P>
+Membuat Noken cukup rumit karena tidak menggunakan mesin. Kayu tersebut diolah, dikeringkan dan kemudian dipintal menjadi benang. Variasi warna pada Noken dibuat dari pewarna alami. Proses pembuatannya bisa mencapai 1-2 minggu, untuk Noken dengan ukuran besar, bisa mencapai 3 minggu. Di daerah Sauwadarek, Papua, masih bisa kita temukan pembuatan Noken secara langsung. Harga Noken disana relatif murah, antara Rp.25.000-Rp.50.000 per buah tergantung jenis dan ukurannya.
+<P>
+Noken dibuat oleh orang perempuan Papua asli dan hanya merekalah yang berhak membuatnya, perempuan yang menguasai pembuatan Noken menunjukkan bahwa ia telah dewasa. Jika sudah dianggap dewasa, maka perempuan Papua barulah boleh menikah (Sumber : Wikipedia).
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+   </div> 
+  </div>
+          </ul> 
+      </div> 
+      </div> <div data-role="page" id="pag11"> <div data-role="header"> <h1>SUBAK</h1> </div> <div data-role="content">
+           <img src="subak.jpg" alt="Subak" style="width:304px;height:228px;">
+
+   </div>
+   Subak adalah organisasi kemasyarakatan yang khusus mengatur sistem pengairan sawah yang digunakan dalam cocok tanam padi di Bali, Indonesia. Subak ini biasanya memiliki pura yang dinamakan Pura Uluncarik, atau Pura Bedugul, yang khusus dibangun oleh para pemilik lahan dan petani yang diperuntukkan bagi dewi kemakmuran dan kesuburan dewi Sri. Sistem pengairan ini diatur oleh seorang pemuka adat yang juga adalah seorang petani di Bali.
+<p>
+Revolusi hijau telah menyebabkan perubahan pada sistem irigasi ini, dengan adanya varietas padi yang baru dan metode yang baru, para petani harus menanam padi sesering mungkin, dengan mengabaikan kebutuhan petani lainnya. Ini sangatlah berbeda dengan sistem Subak, di mana kebutuhan seluruh petani lebih diutamakan. Metode yang baru pada revolusi hijau menghasilkan pada awalnya hasil yang melimpah, tetapi kemudian diikuti dengan kendala-kendala seperti kekurangan air, hama dan polusi akibat pestisida baik di tanah maupun di air.[1] Akhirnya ditemukan bahwa sistem pengairan sawah secara tradisional sangatlah efektif untuk menanggulangi kendala ini.
+<p>
+Subak telah dipelajari oleh Clifford Geertz, sedangkan J. Stephen Lansing telah menarik perhatian umum tentang pentingnya sistem irigasi tradisional. Ia mempelajari pura-pura di Bali, terutama yang diperuntukkan bagi pertanian, yang biasa dilupakan oleh orang asing. Pada tahun 1987 Lansing bekerja sama dengan petani-petani Bali untuk mengembangkan model komputer sistem irigasi Subak. Dengan itu ia membuktikan keefektifan Subak serta pentingnya sistem ini.
+<p>
+Pada tahun 2012 ini UNESCO, mengakui Subak (Bali Cultur Landscape), sebagai Situs Warisan Dunia, pada sidang pertama yang berlangsung di Saint Petersburg, Rusia (Sumber : Wikipedia).
+       <p><a href="#page" data-rel="back">KEMBALI KE PAGE SEBELUMNYA</a></p>
+   </div> 
+  </div>
+      <a href="indek.html" data-role="button"   > Menu Pertama kali masuk </a>
+   </body> 
+  </html>
+
